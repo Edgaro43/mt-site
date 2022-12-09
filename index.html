@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIERRA VERDE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/descargar.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Tierra Verde</b></h4>
+    <p class="w3-text-grey">Cuidado del planeta</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>TOPICOS</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ACERCA</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACTANOS</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Topicos</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/carbon Activado.jpg" alt="Filtro" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Crea Tu Propio Filtro de Agua</b></p>
+        <p style="text-align: justify;">Crea Tu propio Filtro de Agua De Materiales Rezicldos Y Carbon Activado</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Filtro.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/Cuidado del suelo.jpg" alt="Cuidado del suelo" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cuidado del suelo</b></p>
+        <p style="text-align: justify;">El descuido del suelo puede llevar a pocas cosechas y desabastos de comida.</p>
+        <p><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Suelo.html" > Visitar Apartado </a> 
+      </button></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/Cuidado del agua.jpg" alt="Cuidado del agua" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cuida Del Agua</b></p>
+        <p style="text-align: justify;">El agua nos mantiene vivos a todos su cuidado del agua es tarea de todos.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Agua.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/desarrollo sustentable.jpg" alt="Desarrollo Sustentable" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Desarrollo Sustentable</b></p>
+        <p style="text-align: justify;">Descubre una forma de desarrollar tus proyectos de una manera mas ecologica.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Desarrollo.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/Contaminacion Aire.jpg" alt="Contaminacion Aire" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Contaminacion del aire</b></p>
+        <p style="text-align: justify;">La contaminación del aire representa un importante riesgo medioambiental para la salud. Mediante la disminución de los niveles de contaminación del aire los países pueden reducir la carga de morbilidad derivada de accidentes cerebrovasculares, cánceres de pulmón y neumopatías crónicas y agudas, entre ellas el asma.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Aire.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/cambio climatico.jpg" alt="Cambio Climático" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cambio climático</b></p>
+        <p style="text-align: justify;">El incremento desde el siglo XIX de las emisiones de gases de efecto invernadero en la atmósfera por las actividades humanas está provocando la Tierra esté sufriendo un cambio climático.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Cambio.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/Extincion.jpg" alt="Extinción" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Extinción de especies y pérdida de biodiversidad</b></p>
+        <p style="text-align: justify;">Durante la larga historia del planeta han habido muchas extinciones causadas por cambios climáticos, vulcanismo, inundaciones, sequías. Sin embargo, en los últimos años la gran mayoría de las extinciones de flora y fauna se deben al impacto directo o indirecto de las actividades humanas.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Extincion.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/Sobrepesca.jpg" alt="Sobrepesca" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Sobrepesca</b></p>
+        <p style="text-align: justify;">La sobrepesca puede perjudicar a otras especies marinas. La pesca de arrastre, un método en el que los barcos tiran de enormes redes tras ellos en el agua, arrastra algo más que camarones y atún rojo: captura casi todo lo que encuentra a su paso. </p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/sobrepesca.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/Deforestacion.jpg" alt="Deforestación" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Deforestación</b></p>
+        <p style="text-align: justify;">La deforestación o desforestación​ es un proceso provocado por la acción de los humanos, en el que se destruye o agota la superficie forestal, ​​​ generalmente con el objetivo de destinar el suelo a otra actividad.</p>
+        <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" >
+        <a href= "paginas/Deforestacion.html" > Visitar Apartado </a> 
+      </button>
+    </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="img/Tierra Verde Logo.jpg" alt="Me" style="width:100%" >
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Acerca del proyecto</b></h4>
+    <p>Elaboramos una pagina informativa donde almacenaremos diferentes problemas ambientales donde se informara de que son relevantes 
+     en la actualidad.</p>
+    <hr>
+    
+    <h4>Nuestrsos Objetivos</h4>
+    <!-- Progress bars / Skills -->
+    <p>Crear Conciencia sobre los distintos problemas ambientales</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">Prioridad: Alta</div>
+    </div>
+    <p>Estar cerca de las nuevas generaciones</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:55%">Prioridad: Media</div>
+    </div>
+    <p>Realizar un entorno donde se puede Informar</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:65%">Prioridad: Media</div>
+    </div>
+    <hr>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contactanos</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>tierraverdeOficial0@email.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Culiacan, Sinaloa</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+52 1 667 162 7646</p>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>AUTORES</h3>
+      <p>
+        GARCIA LOPEZ EDGAR DANIEL.
+      </p>
+      <p>
+        CINCO ROMERO RODOLFO. 
+      </p>
+      <p>
+        CONTRERAS VILLAGÓMEZ RAÚL FERNANDO.
+      </p>
+      <p>
+        QUIÑONEZ RAMÍREZ HÉCTOR MANUEL.
+      </p>
+      <p>
+        VEGA LOPEZ MIGUEL ÁNGEL.
+      </p>
+    </div>
+  
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
